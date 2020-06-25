@@ -1,8 +1,191 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta name="google-site-verification" content="NzbCKAnWPjMMRNOwYnLnMti-uDeaLfmBJmu4FqlhKBg" />
-  </head>
-  <body>
-    Hello, World!
-  </body>
+
+<head>
+  <title>My Portfolio - Andrew Sumsion</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7d6be7cec9.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/index.css" rel="stylesheet">
+
+  <base target="_blank">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#">Andrew Sumsion</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/AndrewSumsion"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/andrew-sumsion-8025a9157/"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron-fluid jumbotron">
+    <h1 class="display-4">Andrew Sumsion</h1>
+    <p class="lead">Computer Programmer</p>
+  </div>
+
+  <div class="content containter-fluid bg-light">
+    <div class="col-sm-8 centered">
+      <div class="dash">
+        <i class="far fa-window-minimize"></i>
+      </div>
+      <h3>About Me</h3>
+      <p>I love to create things with computers. I am always looking for problems and thinking of possible solutions. Over several years I have been building my skill set as I learn new technologies to help me solve problems.</p>
+      <div class="dash">
+        <i class="far fa-window-minimize"></i>
+      </div>
+      <h3>My Portfolio</h3>
+      <div class="portfolio-grid card-grid">
+        <div class="card">
+          <img class="card-img-top" src="assets/soundgenerator.png" alt="SoundGenerator">
+          <div class="card-body">
+            <h5 class="card-title">SoundGenerator</h5>
+            <p class="card-text">A general purpose digital signal processing library written in Java from scratch.</p>
+            <a href="https://github.com/AndrewSumsion/SoundGenerator" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img class="card-img-top" src="assets/video-player.png" alt="DevCamp Video Player Enhancer">
+          <div class="card-body">
+            <h5 class="card-title">DevCamp Video Player Enhancer</h5>
+            <p class="card-text">A Chrome Extension built to enhance the video player at a programming course I mentored.</p>
+            <a href="https://github.com/AndrewSumsion/DevCampVideoPlayerEnhancer" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="assets/packetlib.png" alt="PacketLib">
+          <div class="card-body">
+            <h5 class="card-title">PacketLib</h5>
+            <p class="card-text">A Minecraft plugin that allows reading and writing custom packets to the Netty pipeline.</p>
+            <a href="https://github.com/AndrewSumsion/PacketLib" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="assets/cameraanimations.gif" alt="Camera Animations">
+          <div class="card-body">
+            <h5 class="card-title">CameraAnimations</h5>
+            <p class="card-text">A Minecraft plugin that animates a player's position to create cinematics.</p>
+            <a href="https://github.com/AndrewSumsion/CameraAnimations" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="assets/3pos.png" alt="3POS">
+          <div class="card-body">
+            <h5 class="card-title">3POS</h5>
+            <p class="card-text">An in-development program meant to automatically integrate 3rd party restaurant orders.</p>
+            <a href="https://github.com/AndrewSumsion/3POS" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <span>...and more on <a href="https://github.com/AndrewSumsion">GitHub</a>.</span>
+    </div>
+  </div>
+
+  <div class="content containter-fluid bg-light">
+    <div class="dash">
+      <i class="far fa-window-minimize"></i>
+    </div>
+    <div>
+      <h3>My Skills</h3>
+      <div class="skill-grid card-grid col-sm-8">
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/java.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Java</h5>
+            <p>Java is my go-to language for complex projects and the language I am best at.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/python.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Python</h5>
+            <p>I use Python in instances when I need a quick solution. It is my 2nd best language.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/javascript.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Javascript</h5>
+            <p>I have used Javascript mostly in web development situations and a little bit with Node.js.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/ruby.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Ruby</h5>
+            <p>I use Ruby in a lot of the same situations as Python. I have some basic experience with Rails.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/html.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Web Development</h5>
+            <p>I am great at turning a design into a functional web page. I am familiar with Bootstrap.</p>
+          </div>
+        </div>   
+
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/tux.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Linux</h5>
+            <p>I have used Linux as my main desktop OS for years and I am familiar with the Unix command line.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon-parent">
+            <div class="icon" style="background-image: url(assets/hardware.png)"></div>
+          </div>
+          <div class="skill-body">
+            <h5 class="card-title">Computer Hardware</h5>
+            <p>I have put together 4 PCs from scratch and have experience troubleshooting faulty hardware.</p>
+          </div>
+        </div>     
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
